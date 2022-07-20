@@ -5,9 +5,7 @@ This library handles UI interactions on the client. You require it once and all 
 utilize the custom Gui Prompts. Proximity Prompts still function normally in that their events fire (So you can use
 normal ProximityPrompt / ProximityPromptService Events and Functions).
 
-
-Okay so here's the basic API I guess:
-
+Have some API
 ----------------------------------------------------------------------------------------------------------------------
 EVENT > promptTriggered(Prompt: Instance, PromptGui: Instance)
 	Fires whenever a prompt is triggered by the client. Passes the ProximityPrompt as the first parameter, and the
